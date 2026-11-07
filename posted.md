@@ -10,3 +10,17 @@ sleep (wuḍūʾ, right side, bismika) · waking dua · leaving home dua · ente
 - WAIT FOR IT (10): Fajr sunrise, hourglass/5 before 5, unread Qur'an, heartbeat/tawbah, dua heard, candle/3 deeds that continue, dominoes/atom's weight, adhan final call, seed/sabr, battery/dhikr
 - BY THE NUMBERS (10): 50 min salah, 604 pages, SubḥānAllāhi wa biḥamdihi 100×, sadaqah 700, weeks of life, 2 rakʿah of Fajr, Laylat al-Qadr, ʿArafah, free sadaqah, istighfar 100×
 - Short film: THE KNOCK (Maryam's knock for Fajr, Muslim 1893)
+
+## THIS, NOT THAT · Season 2 — scheduled for 2026-11-08 (Metricool, status: scheduled/pending)
+| ID | Topic | Source | File | Time | Metricool ID |
+|---|---|---|---|---|---|
+| S2-01 | wuḍūʾ with little water | Bukhārī 201 | DFM_20261108_water_01.mp4 | 08:30 | 420044123 |
+| S2-02 | repeat adhān + duʿāʾ after | Bukhārī 611, 614 | DFM_20261108_adhan_02.mp4 | 09:30 | 420044170 |
+| S2-03 | duʿāʾ entering/leaving masjid | Muslim 713 (right side: Bukhārī 168) | DFM_20261108_masjid_03.mp4 | 10:30 | 420044211 |
+| S2-04 | 2 rakʿah before sitting in masjid | Bukhārī 444 | DFM_20261108_tahiyyah_04.mp4 | 11:30 | 420044249 |
+| S2-05 | a good word is sadaqah | Bukhārī 2989 | DFM_20261108_goodword_05.mp4 | 12:30 | 420044281 |
+| S2-06 | visiting the sick | Bukhārī 3616, Muslim 2568 | DFM_20261108_sick_06.mp4 | 14:00 | 420044378 |
+| S2-07 | kaffārat al-majlis | Tirmidhī 3433 | DFM_20261108_majlis_07.mp4 | 15:30 | 420044412 |
+| S2-08 | saying in shāʾ Allāh | Al-Kahf 18:23–24 | DFM_20261108_inshaallah_08.mp4 | 17:00 | 420044450 |
+| S2-09 | not wasting food | Al-Aʿrāf 7:31 | DFM_20261108_waste_09.mp4 | 18:15 | 420044489 |
+| S2-10 | mā shāʾ Allāh instead of envy | Al-Kahf 18:39 | DFM_20261108_mashaallah_10.mp4 | 19:30 | 420044533 |
