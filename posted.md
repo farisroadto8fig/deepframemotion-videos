@@ -24,3 +24,17 @@ sleep (wuḍūʾ, right side, bismika) · waking dua · leaving home dua · ente
 | S2-08 | saying in shāʾ Allāh | Al-Kahf 18:23–24 | DFM_20261108_inshaallah_08.mp4 | 17:00 | 420044450 |
 | S2-09 | not wasting food | Al-Aʿrāf 7:31 | DFM_20261108_waste_09.mp4 | 18:15 | 420044489 |
 | S2-10 | mā shāʾ Allāh instead of envy | Al-Kahf 18:39 | DFM_20261108_mashaallah_10.mp4 | 19:30 | 420044533 |
+
+## THIS, NOT THAT · Season 3 — scheduled for 2026-11-09 (Metricool, status: scheduled/pending)
+| ID | Topic | Source | File | Time | Metricool ID |
+|---|---|---|---|---|---|
+| S3-01 | Sayyid al-Istighfār | Bukhārī 6306 | DFM_20261109_istighfar_01.mp4 | 08:30 | 420197517 |
+| S3-02 | duʿāʾ when setting off (car) | Muslim 1342, Az-Zukhruf 43:13–14 | DFM_20261109_travel_02.mp4 | 09:30 | 420197875 |
+| S3-03 | Bismillāhil-ladhī lā yaḍurru 3× | Tirmidhī 3388 (ḥasan) | DFM_20261109_protect_03.mp4 | 10:30 | 420197908 |
+| S3-04 | gentleness (rifq) | Muslim 2594 | DFM_20261109_gentle_04.mp4 | 11:30 | 420197923 |
+| S3-05 | siwāk before salah | Bukhārī 887 | DFM_20261109_siwak_05.mp4 | 12:30 | 420197939 |
+| S3-06 | speak good or stay silent (comments) | Bukhārī 6018 | DFM_20261109_silent_06.mp4 | 14:00 | 420197953 |
+| S3-07 | covering a Muslim's faults (photo) | Muslim 2699 | DFM_20261109_cover_07.mp4 | 15:30 | 420198131 |
+| S3-08 | truthfulness, no "small" excuses | Bukhārī 6094 | DFM_20261109_truth_08.mp4 | 17:00 | 420198149 |
+| S3-09 | lowering the gaze (feed) | An-Nūr 24:30 | DFM_20261109_gaze_09.mp4 | 18:15 | 420198172 |
+| S3-10 | last 2 āyāt of al-Baqarah at night | Bukhārī 5009 (2:285–286) | DFM_20261109_baqarah_10.mp4 | 19:30 | 420198183 |
