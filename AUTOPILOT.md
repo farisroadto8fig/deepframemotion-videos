@@ -20,6 +20,9 @@ Each daily run makes 4 new Reels for Instagram @deepframemotion and schedules th
 8. **Log.** Append the topics and dates to `posted.md` and the stats notes to `log.md`, then push.
 9. **Report** to the user in Dutch: what was scheduled and when, what performed best and why, and one idea to grow.
 
+## Expanding to 3D (owner approved, 7 Nov 2026)
+Once the 2D series runs smoothly, also make 3D videos: for example 1 of the 4 daily posts, and more of them if analytics show 3D does better. Use the `cartoon-3d-short` skill if this session has it (flat faceless characters in a painted 3D world, gliding cameras). Otherwise build a three.js scene rendered with Playwright in the same pipeline. If neither works in the session, keep making 2D and say so in the report. All house rules apply to 3D too: faceless figures, real actions, verified sources, hook on frame 1.
+
 ## House rules (always)
 - Figures are always faceless: no eyes, mouth or features (halal). Yusuf (kufi, thobe), Maryam (hijab, abaya) and optional Ali/Mum. Maryam stands behind Yusuf in prayer.
 - When the text names an action (pray, wuḍūʾ, duʿāʾ, eat…), the figures must actually do it, with matching SFX. Figures walk and move; they never just stand still.
