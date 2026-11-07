@@ -42,3 +42,17 @@ Once the 2D series runs smoothly, also make 3D videos: for example 1 of the 4 da
 - Sources are verified, and the Arabic, transliteration and translation are correct.
 - Never post anything political, sectarian or controversial. Keep it to everyday sunnah, adab, duʿāʾ and reminders.
 - Goal: grow the page, so that it can later sell e-books and an e-course ("Deep Frame Motion").
+
+## Growth playbook (owner request, 7 Nov 2026)
+Based on research into top creators in the niche (The Sunnah Guy, Itqān, Yaqeen, big faceless pages) and Instagram's own creator guidance. Use **techniques only**: never copy their lines, visuals or audio.
+1. **3-part formula (The Sunnah Guy):** a hook in the first 3 s that anyone understands and that makes them curious, one core message with no side tracks, and an ending that **pays off the hook** with one line people want to share as "this is me".
+2. **Share line at the end:** the last caption (27–31 s) is a short identity line, e.g. "Be the one who ___." / "Small deed. Every day. Forever." The top tip stays in the tip card.
+3. **Hook bank (templates, fill them in yourself):** "One day you will ___." · "You've been doing ___ wrong your whole life." · "Stop ___. Do this instead." · "The Prophet ﷺ never ___. Here's what he did." · "___ seconds is all it takes to earn ___." · "Most people ___ after salah. Very few ___." · "Don't say ___ when ___. Say ___." · "You're losing ___ every time you ___." · "Everyone knows ___. Almost no one knows ___." · "Two phrases, light on the tongue, heavy on ___." Vary them: no more than 2 videos per day with the same pattern.
+4. **Sound-off first:** about half of viewers watch without sound, so the hook must work as text plus image on frame 1 (already a house rule).
+5. **Ranking signals:** watch time, likes per reach, and **sends per reach** (DM shares, the most important signal for non-followers). Every caption gets one concrete send prompt ("Send this to the one who ___").
+6. **Topics:** analytics show concrete dhikr/duʿāʾ + clear reward + exact source gets the most saves. Aim for at least 4 of 10 per day of that type. Metaphor-only reels (Wait For It style) get views but few saves.
+7. **Original content:** Instagram ranks original content higher. Our engine-made animation and synth sound count as original. No reposts, no other apps' logos.
+8. **Sound:** no trending or copyrighted audio (V2 Phase 7). That costs some reach, but it is the rule. Make up for it with strong SFX timing (pop/ding on every card), varied kits, and later an approved voice-over.
+9. **Loudness:** aim for −14 to −15 LUFS (S3 came out at around −17). If needed, use a two-pass loudnorm or add +2 dB of gain before the limiter.
+10. **Testing:** Metricool supports `TRIAL_REEL` (shown to non-followers first). Only use it with the owner's approval, to test a second hook version of the same topic.
+11. **Brand OS:** keep the same colours, fonts, Yusuf & Maryam and the "This, Not That" stamp across every series. That consistency is our edge over the faceless quote pages.
