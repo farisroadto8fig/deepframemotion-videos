@@ -1,0 +1,10 @@
+tnt16_water airy water
+tnt17_adhan organic adhan
+tnt18_masjid airy masjid
+tnt19_tahiyyah minimal tahiyyah
+tnt20_goodword organic goodword
+tnt21_sick night sick
+tnt22_majlis digital majlis
+tnt23_inshaallah airy inshaallah
+tnt24_waste organic waste
+tnt25_mashaallah digital mashaallah

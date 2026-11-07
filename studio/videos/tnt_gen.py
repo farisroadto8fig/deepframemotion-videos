@@ -31,7 +31,7 @@ function bubbles(list,x0,y0,t,rise=300){return list.map(([t0,txt,dx])=>{const k=
   const y=y0-k*rise,x=x0+(dx||0)+Math.sin(k*6+t0)*14,o=Math.sin(k*Math.PI),w=txt.length*17+70;
   return `<g transform="translate(${f1(x)} ${f1(y)})" opacity="${f1(o)}"><rect x="${-w/2}" y="-33" width="${w}" height="66" rx="33" fill="rgba(12,32,34,.92)" stroke="rgba(143,179,173,.7)" stroke-width="2.5"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="30" fill="#cfe0dc">${txt}</text></g>`;}).join('');}
 // ---------- set pieces (screen coordinates, floor = 1700)
-function bed(x,t,mode,o={}){const C=BRAND.characters.yusuf,y=1600;let s=`<rect x="${x-352}" y="${y-210}" width="42" height="310" rx="14" fill="#6e4b2f"/><rect x="${x-330}" y="${y-40}" width="680" height="72" rx="16" fill="#5a3c25"/><rect x="${x-318}" y="${y+28}" width="26" height="72" fill="#3a2718"/><rect x="${x+300}" y="${y+28}" width="26" height="72" fill="#3a2718"/><rect x="${x-318}" y="${y-76}" width="656" height="48" rx="20" fill="#e9e2d2"/><ellipse cx="${x-226}" cy="${y-94}" rx="98" ry="40" fill="#f6f1e6"/>`;
+function bed(x,t,mode,o={}){const C=BRAND.characters[o.who||'yusuf'],y=1600;let s=`<rect x="${x-352}" y="${y-210}" width="42" height="310" rx="14" fill="#6e4b2f"/><rect x="${x-330}" y="${y-40}" width="680" height="72" rx="16" fill="#5a3c25"/><rect x="${x-318}" y="${y+28}" width="26" height="72" fill="#3a2718"/><rect x="${x+300}" y="${y+28}" width="26" height="72" fill="#3a2718"/><rect x="${x-318}" y="${y-76}" width="656" height="48" rx="20" fill="#e9e2d2"/><ellipse cx="${x-226}" cy="${y-94}" rx="98" ry="40" fill="#f6f1e6"/>`;
   if(mode==='empty')return s+`<path d="M${x-110} ${y-30} Q${x-90} ${y-92} ${x+60} ${y-96} Q${x+250} ${y-98} ${x+332} ${y-74} L${x+332} ${y-30} Z" fill="#1f8a6f"/><path d="M${x-80} ${y-62} Q${x+120} ${y-84} ${x+320} ${y-62}" stroke="#166651" stroke-width="7" fill="none"/>`;
   const br=Math.sin(t*1.7)*4,toss=mode==='toss'?Math.sin(t*11)*12:0,hx=x-212+toss,hy=y-150,rot=mode==='toss'?-80+Math.sin(t*8)*12:(mode==='other'?-100:-80);
   s+=`<g transform="translate(${f1(hx)} ${hy}) rotate(${f1(rot)})"><circle r="76" fill="${C.skin}"/><path d="M-74 -14 Q-76 -82 0 -86 Q76 -82 74 -14 Q0 -36 -74 -14 Z" fill="${C.cap}"/><path d="M-60 -40 Q0 -60 60 -40" stroke="${S}" stroke-width="3" stroke-dasharray="2 9" fill="none"/></g>`;
@@ -67,7 +67,7 @@ function TNT(V){
   cards.push({t0:18.2,t1:23.9,x:90,y:390,w:900,glow:true,...V.whyCard});
   cards.push({t0:24.2,t1:30.9,x:90,y:390,w:900,...V.tipCard});
   const ats=[...cards.map(c=>c.html).join('').matchAll(/data-at="([\d.]+)"/g)].map(m=>+m[1]);
-  STUDIO.video({D:31,series:`This, not that · ${V.n}/15`,
+  STUDIO.video({D:31,series:V.series||`This, not that · ${V.n}/15`,
     chapters:[[0,'Not this','problem'],[9,'Do this','fix'],[18,'Why','reward'],[24,'Top tip','base']],
     captions:caps,cards,cast:V.cast,end:{t:27.6,click:29.4,y:1760},
     cues(){cue(.12,'stamp',{g:.5});cue(9.02,'stamp',{g:.45});cue(9.1,'ding',{g:.14});cue(1.9,'riser',{d:1.5,g:.1});
@@ -415,4 +415,5 @@ def main():
         open(os.path.join(d,'video.html'),'w').write(HEAD.replace('{{COMMON}}',COMMON).replace('{{JS}}',js2))
     open(os.path.join(HERE,'tnt_kits.txt'),'w').write('\n'.join(f'{n} {k}' for n,(k,_) in V.items())+'\n')
     print('wrote',len(V))
-main()
+if __name__=='__main__':
+    main()
