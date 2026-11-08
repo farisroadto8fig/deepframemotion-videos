@@ -1,20 +1,26 @@
 // DEEP FRAME STUDIO renderer
 // node lib/render.js <video.html> preview 0 3.5 7        -> prev/p_<t>.png  (full-size stills)
-// node lib/render.js <video.html> build [--kit organic] [--vo voice.mp3] [--only 2,3]
-// node lib/render.js <video.html> sound [--kit airy] [--out x.mp4]   -> new audio only (re-uses video_silent.mp4, -c:v copy)
+// node lib/render.js <video.html> build [--vo voice.mp3] [--only 2,3]
+// node lib/render.js <video.html> sound [--out x.mp4]   -> new audio only (re-uses video_silent.mp4, -c:v copy)
 //   per scene: frames piped as JPEG (q92) into one encoded .mp4 (tmp name, renamed on exit 0),
 //   scenes joined with concat -c copy, sound added with -c:v copy.
+// HUISREGEL (8 nov 2026): GEEN muziek. Er wordt nooit een muziekbed gemixt (kit staat vast op 'none'),
+// en melodische cues (piano, chord, marimba) worden eruit gefilterd. Geluidseffecten blijven.
 const {chromium}=require('playwright');const fs=require('fs');const path=require('path');const {spawn,execFileSync}=require('child_process');
 const arg=(k,d)=>{const i=process.argv.indexOf('--'+k);return i>0?process.argv[i+1]:d;};
+const NO_MUSIC_CUES=['piano','chord','marimba'];
 (async()=>{const [file,mode,...rest]=process.argv.slice(2);const html=path.resolve(file),dir=path.dirname(html),lib=__dirname;
  const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
  await p.goto('file://'+html+'?t=0');await p.waitForTimeout(600);if(errs.length){console.error('PAGE ERROR',errs);process.exit(1);}
  const FPS=await p.evaluate(()=>window.BRAND?BRAND.video.fps:30);
  if(mode==='preview'){fs.mkdirSync(dir+'/prev',{recursive:true});for(const t of rest.filter(x=>!x.startsWith('--'))){await p.evaluate(t=>render(t),+t);await p.screenshot({path:`${dir}/prev/p_${t}.png`});}console.log('previews',dir+'/prev');await b.close();return;}
- // 1. cues -> sound
+ // 1. cues -> sound (effects only, no music)
  const cues=await p.evaluate(()=>{for(let t=0;t<DUR;t+=0.25)render(t);return {types:Object.values(TYPES),sfx:SFX,D:DUR}});
+ const before=cues.sfx.length;cues.sfx=cues.sfx.filter(c=>!NO_MUSIC_CUES.includes(c.k));
+ if(cues.sfx.length<before)console.log('removed',before-cues.sfx.length,'melodic cues (no-music rule)');
  fs.writeFileSync(dir+'/cues.json',JSON.stringify(cues));
- const kit=arg('kit',await p.evaluate(()=>window.BRAND?BRAND.sound.kit:'organic'));
+ if(arg('kit',null)&&arg('kit',null)!=='none')console.log('--kit ignored: no-music rule, kit is always none');
+ const kit='none';
  execFileSync('python3',[lib+'/sfx.py',dir+'/cues.json',kit,dir+'/sfx.wav'],{stdio:'ignore'});
  if(mode==='sound'){await b.close();if(!fs.existsSync(dir+'/video_silent.mp4')){console.error('build first');process.exit(1);}}
  else {
