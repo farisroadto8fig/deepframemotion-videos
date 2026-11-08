@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Salawat';src:url(node_modules/@fontsource/amiri/files/amiri-arabic-700-normal.woff) format('woff');unicode-range:U+FDFA;}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#05110f}
+#c{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#cap{position:absolute;left:80px;right:80px;top:300px;text-align:center;font-family:'Inter','Salawat',sans-serif;font-weight:900;
+  font-size:84px;line-height:1.08;color:#eef3ef;letter-spacing:-1px;
+  text-shadow:0 4px 0 rgba(0,0,0,.35),0 0 40px rgba(0,0,0,.55),0 0 12px rgba(0,0,0,.6)}
+#cap m{color:#7fdcbf;font-style:normal}
+#cap small{display:block;margin-top:22px;font-size:40px;font-weight:700;color:#e3c99a;letter-spacing:0}
+#cap .num{display:block;font-size:220px;line-height:1;color:#7fdcbf;letter-spacing:-6px}
+#cap .lbl{display:block;font-size:96px;margin-top:6px}
+#pill{position:absolute;left:50%;bottom:250px;transform:translateX(-50%);padding:26px 52px;border-radius:80px;background:rgba(10,30,30,.82);
+  border:3px solid #7fdcbf;font-family:'Inter','Noto Color Emoji',sans-serif;font-weight:800;font-size:46px;color:#eef3ef;white-space:nowrap;opacity:0}
+</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head><body>
+<canvas id="c"></canvas>
+<div id="cap"></div>
+<div id="pill">👉 Follow @deepframemotion</div>
+<script type="module" src="scene.js"></script>
+</body></html>
