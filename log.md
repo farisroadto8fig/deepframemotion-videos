@@ -24,3 +24,13 @@
 - Upload: commit 4560f8e (10 mp4 + tnt3_gen.py, tnt3_render.sh, tnt3_kits.txt, s3_posts.py). Scheduling: 10/10 created, IDs in posted.md, all Pending; 9 Nov = 10/10, 45–90 min gaps.
 - Costs: no paid services used; confirmed costs: none known.
 - Improvement: a "1 dhikr, 1 reward" series; raise loudness target (loudnorm I=-14 lands at about −17).
+
+## Run 2026-11-09 (scheduled autopilot, unattended) — target day 2026-11-10 — NO PRODUCTION
+- Start 18:40 UTC (19:40 Casablanca), finish ~19:05 UTC. Lock acquired (935558f) and released in this commit.
+- Schedule (Metricool, brand 7926528): 8 Nov: S2-01…08 Published; S2-09 (18:15) and S2-10 (19:30) are DRAFTS (recreated 8 Nov 17:59 with new media), not published. 9 Nov: all 10 S3 posts are DRAFTS (IDs 420946751–420947271, recreated 8 Nov 17:59; the IDs in posted.md 420197517–420198183 no longer exist); all times passed, so 0 Reels published on 9 Nov. 10 Nov: 0/10. 11 Nov: 0/10.
+- Analytics (14 days, IG reels; views/shares/saves/avg watch s): most views TNT10 "bad dream" 4553/40/56/8.3; best saves+shares per view "4 phrases" (Muslim 2726) 3782/32/113/8.4 (3.8%), "+100 dhikr" 2573/34/52 (3.3%), TNT11 "gossip" 1879/41/19 (3.2%). S2 (8 Nov): adhan 1626/0/28/8.7, wudu 1262/0/2/7.4, masjid-dua 718/0/10/6.3, tahiyyah 96/0/0 (early). Avg watch time still 6–9 s of 31 s. Reel view rate (IGRE28) ~45–55 %. Follower conversion per reel: unavailable.
+- Topics prepared (not produced): tasbih 33/33/34 before sleep (Bukhārī 3705), pain duʿāʾ (Muslim 2202), stairs takbīr/tasbīḥ (Bukhārī 2993), calamity duʿāʾ (Muslim 918), toilet duʿāʾ (Bukhārī 142), jazākAllāhu khayran (Tirmidhī 2035), duʿāʾ for the host (Muslim 2055), smile is sadaqah (Tirmidhī 1956), after-eating ḥamd (Tirmidhī 3458), duʿāʾ of Yūnus (Tirmidhī 3505).
+- Source verification: FAILED for all 10 — sunnah.com fetches returned PROVENANCE_REQUIRED (permission prompt not answered in an unattended run). Per V2 fail-closed rule, nothing rendered or scheduled. 0 rendered, 0 uploaded, 0 scheduled.
+- Owner hold: the 8 Nov drafts + "run paused by owner" suggest publication is on hold (no-music re-renders / 3D style choice). Not changed by this run.
+- Costs: no paid services used; confirmed costs: none known.
+- Needed: (1) owner decides on the 9 Nov / 8 Nov drafts (publish later or reschedule); (2) allow sunnah.com (and quran.com) fetches for scheduled runs so verification can run unattended.
