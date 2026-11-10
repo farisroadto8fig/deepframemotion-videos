@@ -34,3 +34,13 @@
 - Owner hold: the 8 Nov drafts + "run paused by owner" suggest publication is on hold (no-music re-renders / 3D style choice). Not changed by this run.
 - Costs: no paid services used; confirmed costs: none known.
 - Needed: (1) owner decides on the 9 Nov / 8 Nov drafts (publish later or reschedule); (2) allow sunnah.com (and quran.com) fetches for scheduled runs so verification can run unattended.
+
+## Run 2026-11-10 (scheduled autopilot, unattended) — target day 2026-11-11 — NO PRODUCTION
+- Start 18:42 UTC (19:42 Casablanca), finish ~18:55 UTC. Lock acquired (af56525) and released in this commit. No stale lock found.
+- Schedule (Metricool, brand 7926528, 8–17 Nov): 8 Nov S2-01…08 Published; S2-09/10 still DRAFT (times passed). 9 Nov: all 10 S3 still DRAFT (times passed, not published). 10 Nov 0, 11 Nov 0/10, 12 Nov 0/10, 13–17 Nov 0. Target = 11 Nov, 10 free slots.
+- Analytics (27 Oct–10 Nov, IG reels; views/shares/saves/avg watch s): no new reels since 8 Nov 11:30 in the data (S2-05…08 not yet in analytics). Most views TNT10 "bad dream" 4553/40/56/8.3. Best saves+shares per view: "4 phrases" (Muslim 2726) 3782/32/113/8.4 (3.8 %), "+100 dhikr" (Bukhārī 3293) 3.3 %, TNT11 gossip 3.2 %, "who held your rope" (mother) longest watch 11.7 s and 75.5 % view rate. Weak: S2-04 tahiyyah 96 views, S2-01 wudu 0 shares/2 saves. Retention % and follower conversion per reel: unavailable.
+- Topics prepared (carried over from 9 Nov, not produced): Bukhārī 3705, Muslim 2202, Bukhārī 2993, Muslim 918, Bukhārī 142, Tirmidhī 2035, Muslim 2042 (host duʿāʾ; 9 Nov list said 2055 — to re-check), Tirmidhī 1956, 3458, 3505.
+- Source verification: FAILED for all 10 again — every sunnah.com fetch returned PROVENANCE_REQUIRED (permission prompt not answered in an unattended run). Search snippets are not enough per V2 Phase 4, so fail-closed: 0 rendered, 0 uploaded, 0 scheduled.
+- Not scheduled: today's 5 FX sample reels (studio/videos/fx*) — owner samples, not approved for publication.
+- Costs: no paid services used; confirmed costs: none known.
+- Needed (same as 9 Nov): (1) allow sunnah.com / quran.com fetches for this scheduled task (or run once interactively and approve), (2) owner decision on the 8/9 Nov drafts.
