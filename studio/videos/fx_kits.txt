@@ -1,0 +1,5 @@
+fx1_tomorrow none tomorrow 01
+fx2_dial none dial 02
+fx3_breakout none breakout 03
+fx4_discipline none discipline 04
+fx5_onepercent none onepercent 05

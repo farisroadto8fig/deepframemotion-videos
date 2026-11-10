@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css"></head><body><div id="stage"></div>
+<script src="../../brand.js"></script><script src="../../lib/core.js"></script><script src="../../lib/mascot.js"></script><script src="../../lib/fx.js"></script>
+<script>
+const {M,S,A,T,RED,GRN,f1,f2,hash}=FX;
+
+const HAB=['Pray on time','Read 1 page','Sleep early','Call your parents','Move your body','Say alḥamdulillāh'];
+function chart(t,t0){const x0=150,y0=1460,W=780,H=620;let up='',dn='';const k=eio(P(t,t0,3.2)),k2=eio(P(t,t0+3.4,1.8));
+  for(let d=0;d<=365*k;d+=5){const v=Math.pow(1.01,d);up+=(d?'L':'M')+f1(x0+d/365*W)+' '+f1(y0-(v-1)/37*H);}
+  for(let d=0;d<=365*k2;d+=5){const v=Math.pow(.99,d);dn+=(d?'L':'M')+f1(x0+d/365*W)+' '+f1(y0+ (1-v)*120);}
+  const dd=365*k,v=Math.pow(1.01,dd);const ex=x0+dd/365*W,ey=y0-(v-1)/37*H;
+  return `<g opacity="${f2(eo(P(t,t0-.3,.4))*(1-P(t,9.0,.3)))}"><path d="M${x0} ${y0-H-20} V${y0+140} H${x0+W+40}" stroke="#8fb3ad" stroke-width="3" fill="none" opacity=".6"/>
+   <text x="${x0}" y="${y0+200}" font-family="DejaVu Sans Mono" font-size="22" letter-spacing="3" fill="#8fb3ad">DAY 1</text><text x="${x0+W}" y="${y0+200}" text-anchor="end" font-family="DejaVu Sans Mono" font-size="22" letter-spacing="3" fill="#8fb3ad">DAY 365</text>
+   <path d="${up}" stroke="${M}" stroke-width="12" fill="none" stroke-linecap="round" filter="url(#glow)"/>${k>0?`<circle cx="${f1(ex)}" cy="${f1(ey)}" r="18" fill="${M}"/><text x="${f1(Math.min(ex,x0+W-60))}" y="${f1(ey-40)}" text-anchor="middle" font-family="Inter" font-weight="900" font-size="64" fill="${M}">${v.toFixed(1)}×</text>`:''}
+   ${k2>0?`<path d="${dn}" stroke="${RED}" stroke-width="9" stroke-dasharray="18 14" fill="none"/><text x="${x0+W}" y="${y0+110}" text-anchor="end" font-family="Inter" font-weight="900" font-size="48" fill="${RED}" opacity="${f2(P(t,t0+4.6,.4))}">0.03×</text>`:''}</g>`;}
+FX.video({D:22,scenes:[0,3.2,9.2,10.2,16,19.3,22],
+ mood:t=>t<9.2?'#16323a':t<16?'#123a6b':'#5a4512',
+ cam:t=>{const z=t>=8.6&&t<9.6?1+14*Math.pow(P(t,8.6,1.0),3):1;return {z,y:t>=8.6&&t<9.6?(z-1)*-30:0,blur:t>=9.2&&t<9.6?8*P(t,9.2,.4):(t>=9.6&&t<10.0?8*(1-P(t,9.6,.4)):0)};},
+ captions:[[-1,3.1,'[1%] better every day…',{y:200}],[3.2,6.5,'…is *37× better* in one year.',{y:200}],[6.6,8.5,'1% worse? ^Almost zero.^',{y:200}],
+  [10.2,15.9,'Small habits. Every [single] day.',{y:220}],[16.0,19.2,'Tiny today. *Huge* in a year.',{y:220}],[19.3,22,'Start with [one.]',{y:240}]],
+ cast:{yusuf:{path:[[0,540],[22,540]],scale:1.35,ground:1560,vis:[9.6,19.3],tl:[[-1,'idle'],[9.6,'idle'],[10.4,'pointUpR'],[12.5,'think'],[14,'happy'],[16,'celebrate']]}},
+ scene(t){let back='',h='';
+  if(t<9.6){const k=eback(P(t,-.6,.5));back+=`<text x="540" y="${t<2.6?900:900-560*eio(P(t,2.6,.6))}" text-anchor="middle" font-family="Inter" font-weight="900" font-size="${f1(t<2.6?300:300-150*eio(P(t,2.6,.6)))}" fill="${T}" opacity="${t<8.6&&t>3.2?.0:1}" transform="scale(1)">${t<3.2?(1+.01*Math.min(1,cl(P(t,0,2.6))) ).toFixed(2):'1%'}</text>`;
+    if(t>=3.2&&t<9.2)back+=chart(t,3.4);
+    if(t>=8.6)back+=`<text x="540" y="1060" text-anchor="middle" font-family="Inter" font-weight="900" font-size="300" fill="${M}">1%</text>`;}
+  if(t>=9.6&&t<16.2){const it=FX.orbit(t,HAB,{t0:10.2,cy:1180,rx:440,ry:170,sp:.11,t1:15.9});h+=it.filter(x=>x.z<.5).map(x=>x.html).join('');
+    back+=`<ellipse cx="540" cy="1180" rx="440" ry="170" fill="none" stroke="${M}" stroke-width="3" opacity="${f2(.35*P(t,10,.5)*(1-P(t,15.9,.3)))}" stroke-dasharray="6 14"/>`;
+    var frontHTML=it.filter(x=>x.z>=.5).map(x=>x.html).join('');}
+  if(t>=16&&t<19.3){const k=eio(P(t,16,1.5));back+=`<g opacity="${f2(P(t,16,.3))}"><rect x="200" y="760" width="680" height="40" rx="20" fill="rgba(255,255,255,.08)"/><rect x="200" y="760" width="${f1(680*k)}" height="40" rx="20" fill="${M}"/><text x="540" y="730" text-anchor="middle" font-family="DejaVu Sans Mono" font-size="24" letter-spacing="4" fill="#cfe0dc">DAY ${Math.round(1+364*k)} / 365</text></g>`;}
+  return {back,html:h+(typeof frontHTML!=='undefined'&&frontHTML?`<div style="position:absolute;inset:0;z-index:20">${frontHTML}</div>`:'')};},
+ cues(){[0.3,0.9,1.5,2.1].forEach(x=>cue(x,'tick',{g:.15}));cue(2.6,'whoosh',{g:.2});cue(3.4,'riser',{d:3.0,g:.1});cue(3.5,'counter',{g:.12});cue(6.5,'ding',{g:.15});cue(6.8,'glitch',{g:.15});cue(7.2,'thud',{g:.2});
+  cue(8.6,'riser',{d:.9,g:.15});cue(9.5,'whoosh',{g:.35});cue(9.6,'synthhit',{g:.25});HAB.forEach((_,i)=>cue(10.2+i*.25,'pop',{g:.12}));cue(16,'sparkle',{g:.2});cue(16.1,'counter',{g:.12});cue(19.3,'swoosh',{g:.2});},
+ end:{t:19.4,click:20.8,y:1640}});
+
+</script></body></html>

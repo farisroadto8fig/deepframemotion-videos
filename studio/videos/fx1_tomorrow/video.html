@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css"></head><body><div id="stage"></div>
+<script src="../../brand.js"></script><script src="../../lib/core.js"></script><script src="../../lib/mascot.js"></script><script src="../../lib/fx.js"></script>
+<script>
+const {M,S,A,T,RED,GRN,f1,f2,hash}=FX;
+
+const ITEMS=[['Pray the next salah on time',9.0],['Read 1 page',10.3],['10 push-ups',11.6],['Phone away by 11 pm',12.9]];
+const EXC=[["I'm too tired",700,-160],['Next week',840,140],['After my exams',980,-90],['Not in the mood',1120,120]];
+FX.video({D:22,scenes:[0,4,8,14.7,19.3,22],
+ mood:t=>t<8?'#5a1626':t<14.7?'#123a6b':t<17.5?'#0f4a3f':'#5a4512',
+ cam:t=>({z:t<4?1+.03*P(t,0,4):t<8?1.04-.04*eo(P(t,4,.6)):1}),
+ captions:[[-1,3.9,'Your phone knows your [biggest] excuse.',{y:220}],[4.0,7.9,'“Tomorrow” is where *goals* go to die.',{y:220}],
+  [8.0,14.6,'Start so [small] you can’t say no.',{y:250}],[14.7,19.2,'Excuses? *Let them go.*',{y:250}],[19.3,22,'Today. [Not tomorrow.]',{y:300}]],
+ cast:{yusuf:{path:[[0,1400],[4.3,1400],[5.2,800],[8.6,800],[9.2,540],[19.2,540],[20.2,1400]],scale:1.3,ground:1760,
+   tl:[[-1,'idle'],[4.3,'walk'],[5.2,'pointL'],[6.0,'surprised'],[7.0,'think'],[8.6,'walk'],[9.2,'pointUpR'],[13.0,'celebrate'],[14.7,'idle'],[15.6,'pointL'],[17.6,'happy'],[19.2,'walk']]}},
+ scene(t){let h='';
+  if(t<4.6){const full="I'll start tomorrow";const ty=t<2.95?FX.typed(t,"I'll start t",-1.0,11):full;
+    h+=FX.keyboard(t,{y:1000,typed:ty,sugg:['later','Monday','tomorrow'],hi:t>=2.3?2:-1,hiT:2.3,press:t<2.95?[Math.floor((t+1)*11)/11,ty.slice(-1).toLowerCase()]:[2.95,'_'],dy:eio(P(t,3.9,.6))*900,op:1-P(t,4.2,.4)});}
+  if(t>=3.9&&t<8.3)h+=`<div style="opacity:${f2(cl(P(t,3.9,.3)))};transform:scale(${f2(.6+.4*eback(P(t,3.9,.45)))})">`+FX.slice(t,6.0,'tomorrow',{y:800,fs:180,c:A})+'</div>';
+  if(t>=8&&t<14.8)h+=FX.checklist(t,ITEMS,{t0:8.1,t1:14.4,y:560,label:'Today · tiny wins',fs:44});
+  if(t>=14.7&&t<19.3)h+=EXC.map(([e,y,dx],i)=>{const a=eo(P(t,14.8+i*.15,.4));if(t<16.2)return `<div style="position:absolute;left:${540+dx-230}px;top:${y+Math.sin(t*2+i)*10}px;width:460px;text-align:center;opacity:${f2(a)}"><span style="display:inline-block;padding:16px 30px;border-radius:40px;background:rgba(90,22,38,.9);border:2.5px solid ${RED};font-size:44px;font-weight:800">${e}</span></div>`;
+     return FX.blow(t,16.2+i*.22,e,{x:540+dx,y:y+12,fs:44,c:'#ffc6cc'});}).join('');
+  if(t>=17.5)h+=FX.glass(t,17.6,'TODAY',{y:760,h:300,t1:21.2});
+  return {html:h};},
+ cues(){cue(-.2,'notif',{g:.15});cue(2.3,'pop',{g:.2});cue(2.95,'click',{g:.3});cue(3.0,'ding',{g:.14});cue(3.9,'whoosh',{g:.3});cue(5.95,'whip',{g:.4});cue(6.02,'metalhit',{g:.3});cue(7.0,'thud',{g:.25});
+  cue(8.0,'swoosh',{g:.25});FX.checkCues(ITEMS);cue(13.0,'sparkle',{g:.18});cue(14.7,'swoosh',{g:.2});EXC.forEach((_,i)=>FX.blowCues(16.2+i*.22,''));cue(17.0,'riser',{d:.6,g:.12});cue(17.6,'sparkle',{g:.2});cue(17.65,'ding',{g:.15});},
+ end:{t:19.4,click:20.8,y:1640}});
+
+</script></body></html>
