@@ -44,3 +44,12 @@
 - Not scheduled: today's 5 FX sample reels (studio/videos/fx*) — owner samples, not approved for publication.
 - Costs: no paid services used; confirmed costs: none known.
 - Needed (same as 9 Nov): (1) allow sunnah.com / quran.com fetches for this scheduled task (or run once interactively and approve), (2) owner decision on the 8/9 Nov drafts.
+
+## Run 2026-11-11 (scheduled autopilot, unattended) — target day 2026-11-12 — NO PRODUCTION
+- Start 18:40 UTC (18:40 Casablanca), finish ~18:55 UTC. Lock acquired (ffe8bd8) and released in this commit. No existing lock found.
+- Schedule (Metricool getScheduledPosts, brand 7926528, 11–18 Nov): 0 scheduled posts returned. 12 Nov 0/10, 13 Nov 0/10 → target 12 Nov, 10 free slots.
+- Analytics (28 Oct–11 Nov, IG reels; views/shares/saves/avg watch s): still no reels after 8 Nov 11:31 in the data (S2-05…08 and the S3 drafts do not appear). Most views TNT10 "bad dream" 4553/40/56/8.3. Best saves+shares per view: "4 phrases" (Muslim 2726) 3782/32/113/8.4 (3.8 %), "+100 dhikr" (Bukhārī 3293) 3.3 %, TNT11 gossip 1879/41/19 (3.2 %). Longest watch: "4 keys to rizq" 15.4 s (229 views), "who held your rope" 11.7 s / 75.5 % view rate. Weakest recent: S2-04 tahiyyah 96 views, S2-01 wudu 0 shares/2 saves. Retention % and follower conversion per reel: unavailable.
+- Topics prepared (carried over, not produced): Bukhārī 3705, Muslim 2202, Bukhārī 2993, Muslim 918, Bukhārī 142, Tirmidhī 2035, Muslim 2042 (to re-check vs 2055), Tirmidhī 1956, 3458, 3505.
+- Source verification: FAILED again (3rd run in a row). sunnah.com/bukhari:3705 and quran.com/2/286 fetches both returned PROVENANCE_REQUIRED (permission request not answered in an unattended run). Fail-closed per V2 Phase 4: 0 rendered, 0 uploaded, 0 scheduled.
+- Costs: no paid services used; confirmed costs: none known.
+- Needed (same as 9/10 Nov): (1) allow sunnah.com and quran.com fetches for this scheduled task (or run once interactively and approve them); (2) owner decision on the 8/9 Nov drafts. Account has had no new Reels since 8 Nov.
