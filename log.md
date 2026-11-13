@@ -62,3 +62,12 @@
 - Source verification: FAILED again (4th run in a row). sunnah.com/bukhari:3705 and legacy.quran.com/21/87 both returned PROVENANCE_REQUIRED (permission request not answered in an unattended run). Fail-closed per V2 Phase 4: 0 rendered, 0 uploaded, 0 scheduled. Best-time lookup skipped (nothing to schedule).
 - Costs: no paid services used; confirmed costs: none known.
 - Needed: allow sunnah.com and quran.com fetches for this scheduled task (or run once interactively and approve them); owner decision on the 8/9 Nov drafts.
+
+## Run 2026-11-13 (scheduled autopilot, unattended) — target day 2026-11-14 — NO PRODUCTION
+- Start 18:40 UTC (18:40 Casablanca), finish ~18:50 UTC. No existing lock; lock acquired (4a5c3d7) and released in this commit.
+- Schedule (Metricool getScheduledPosts, brand 7926528, 13–20 Nov): 0 scheduled posts. 14 Nov 0/10 → target 14 Nov, 10 free slots.
+- Analytics (30 Oct–13 Nov, IG reels; views/shares/saves/avg watch s): still no reels after 8 Nov 11:31 (5 days without new posts). Most views TNT10 "bad dream" 4553/40/56/8.3. Best saves+shares per view: "4 phrases" (Muslim 2726) 3782/32/113/8.4 (3.8 %), "+100 dhikr" (Bukhārī 3293) 2573/34/52 (3.3 %), TNT11 gossip 1879/41/19 (3.2 %). Longest watch: "4 keys to rizq" 15.4 s (229 views), "who held your rope" 11.7 s / 75.5 % view rate. Retention % (IGRE27) null; follower conversion per reel unavailable.
+- Topics prepared (carried over, not produced): Bukhārī 3705, Muslim 2202, Bukhārī 2993, Muslim 918, Bukhārī 142, Tirmidhī 2035, Muslim 2042 (to re-check vs 2055), Tirmidhī 1956, 3458, 3505.
+- Source verification: FAILED again (5th run in a row). sunnah.com/bukhari:3705 and sunnah.com/muslim:2202 both returned PROVENANCE_REQUIRED (permission request not answered in an unattended run). Fail-closed per V2 Phase 4: 0 rendered, 0 uploaded, 0 scheduled. Best-time lookup skipped (nothing to schedule).
+- Costs: no paid services used; confirmed costs: none known.
+- Needed: allow sunnah.com and quran.com fetches for this scheduled task (or run once interactively and approve them); owner decision on the 8/9 Nov drafts.
