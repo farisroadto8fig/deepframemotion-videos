@@ -98,3 +98,12 @@
 - Source verification: FAILED again (8th run in a row). sunnah.com/bukhari:3705 returned PROVENANCE_REQUIRED ("permission request ... not answered in time"). Fail-closed per V2 Phase 4: 0 rendered, 0 uploaded, 0 scheduled. Best-time lookup skipped.
 - Costs: no paid services used; confirmed costs: none known.
 - Needed: allow sunnah.com and quran.com fetches for this scheduled task (or run once interactively and approve them).
+
+## Run 2026-11-17 (scheduled autopilot, unattended) — target day 2026-11-18 — NO PRODUCTION
+- Start 18:40 UTC (18:40 Casablanca), finish ~18:50 UTC. No existing lock; lock acquired (189f423) and released in this commit.
+- Schedule (Metricool getScheduledPosts, brand 7926528, 17–24 Nov): 0 scheduled posts. 18 Nov 0/10 → target 18 Nov, 10 free slots.
+- Analytics (3–17 Nov, IG reels; views/shares/saves/avg watch s/skip rate): 28 reels, still none after 8 Nov 11:31 (9 days without new posts). Most views TNT10 "bad dream" 4553/40/56/8.3/51.3 %. Best saves+shares per view: "4 phrases" (Muslim 2726) 3782/32/113/8.4 (3.8 %), "+100 dhikr" (Bukhārī 3293) 2573/34/52 (3.3 %), TNT11 gossip 1879/41/19 (3.2 %). Longest watch: "The Knock" 14.2 s (298 views). Highest skip rate: worry 3 AM 66.7 %, "treasure of Jannah" 66.3 %. Weakest: S2-04 tahiyyah 96 views / 0 / 0.
+- Topics prepared (carried over, not produced): Bukhārī 3705, Muslim 2202, Bukhārī 2993, Muslim 918, Bukhārī 142, Tirmidhī 2035, Muslim 2042 (to re-check vs 2055), Tirmidhī 1956, 3458, 3505.
+- Source verification: FAILED again (9th run in a row). sunnah.com/bukhari:3705 returned PROVENANCE_REQUIRED ("permission request for this URL was not answered in time"). Fail-closed per V2 Phase 4: 0 rendered, 0 uploaded, 0 scheduled. Best-time lookup skipped.
+- Costs: no paid services used; confirmed costs: none known.
+- Needed: allow sunnah.com and quran.com fetches for this scheduled task (or run once interactively and approve them).
