@@ -38,3 +38,17 @@ sleep (wuḍūʾ, right side, bismika) · waking dua · leaving home dua · ente
 | S3-08 | truthfulness, no "small" excuses | Bukhārī 6094 | DFM_20261109_truth_08.mp4 | 17:00 | 420198149 |
 | S3-09 | lowering the gaze (feed) | An-Nūr 24:30 | DFM_20261109_gaze_09.mp4 | 18:15 | 420198172 |
 | S3-10 | last 2 āyāt of al-Baqarah at night | Bukhārī 5009 (2:285–286) | DFM_20261109_baqarah_10.mp4 | 19:30 | 420198183 |
+
+## THIS, NOT THAT · Season 4 — scheduled for 2026-11-20 (Metricool, status: Pending, autoPublish)
+| ID | Topic | Source (verified 19 Nov) | File | Time | Metricool ID |
+|---|---|---|---|---|---|
+| S4-01 | takbīr up / tasbīḥ down the stairs | Bukhārī 2993 (sunnah.com) | DFM_20261120_stairs_01.mp4 | 08:30 | 434635817 |
+| S4-02 | smile is charity | Tirmidhī 1956, ḥasan (hadithunlocked) | DFM_20261120_smile_02.mp4 | 09:30 | 434636051 |
+| S4-03 | duʿāʾ for pain (hand, Bismillāh 3×, 7×) | Muslim 2202 (hadithunlocked) | DFM_20261120_pain_03.mp4 | 10:30 | 434636077 |
+| S4-04 | duʿāʾ before entering the toilet | Bukhārī 142 (sunnah.com) | DFM_20261120_toilet_04.mp4 | 11:30 | 434636364 |
+| S4-05 | ḥamd after eating | Tirmidhī 3458, ḥasan (hadeethenc) | DFM_20261120_aftermeal_05.mp4 | 12:30 | 434636386 |
+| S4-06 | guest's duʿāʾ for the host | Muslim 2042 (hadithunlocked) | DFM_20261120_host_06.mp4 | 14:00 | 434636412 |
+| S4-07 | duʿāʾ at a loss (innā lillāh…) | Muslim 918 (hadithunlocked) | DFM_20261120_loss_07.mp4 | 15:30 | 434636748 |
+| S4-08 | tasbīḥ 33/33/34 before sleep | Bukhārī 3705 (sunnah.com) | DFM_20261120_tasbih_08.mp4 | 17:00 | 434636775 |
+| S4-09 | duʿāʾ of Yūnus | Tirmidhī 3505, ṣaḥīḥ (hadithunlocked) | DFM_20261120_yunus_09.mp4 | 18:15 | 434636807 |
+| S4-T | TRIAL REEL: tasbīḥ, hook "Everyone wants help… almost no one knows this gift" | Bukhārī 3705 | DFM_20261120_tasbih_T.mp4 | 20:15 | 434636836 |

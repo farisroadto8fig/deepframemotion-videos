@@ -116,3 +116,16 @@
 - Source verification: FAILED again (10th run in a row). sunnah.com/bukhari:3705 returned PROVENANCE_REQUIRED ("permission request for this URL was not answered in time"). Fail-closed per V2 Phase 4: 0 rendered, 0 uploaded, 0 scheduled. Best-time lookup skipped.
 - Costs: no paid services used; confirmed costs: none known.
 - Needed: allow sunnah.com and quran.com fetches for this scheduled task (or run once interactively and approve them).
+
+## Run 2026-11-19 (scheduled autopilot, unattended) — target day 2026-11-20 — PRODUCTION RESUMED
+- Start 18:40 UTC (18:40 Casablanca), finish ~19:10 UTC. No existing lock; lock acquired (6a2e1bc) and released in this commit.
+- Schedule (Metricool getScheduledPosts, brand 7926528, 19–26 Nov): 0 scheduled posts → target 20 Nov, 10 free slots. Re-checked just before scheduling (still 0) and after (10/10).
+- Analytics (5–19 Nov, IG reels; views/shares/saves/avg watch s/skip rate): 16 reels, still none after 8 Nov 11:31 (11 days without new posts). Most views TNT10 "bad dream" 4553/40/56/8.3/51.3 %. Best shares+saves per view: TNT11 gossip 1879/41/19 (3.2 %), TNT01-style dhikr not in window. Longest avg watch: TNT05 eating 10.2 s. Highest skip: TNT13 worry 66.7 %. Weakest: S2-04 tahiyyah 96 views / 0 / 0 / 1.1 s.
+- Source verification: UNBLOCKED. Fix: run a web search first, then fetch the URL the search returned (direct fetches of URLs typed from memory were what hit PROVENANCE_REQUIRED). sunnah.com pages fetched OK for Bukhārī 3705, 2993, 142; other sunnah.com pages returned client_error, so hadithunlocked.com / hadeethenc.com were used: Muslim 2202, 918, 2042; Tirmidhī 1956 (ḥasan; Albānī ṣaḥīḥ), 3458 (ḥasan), 3505 (ṣaḥīḥ, Albānī + Zubair ʿAlī Zaʾī).
+- REJECTED: Tirmidhī 2035 (jazāk Allāhu khayran): page shows Abū Ḥātim calling this isnad mawḍūʿ/munkar → disputed, not used. Muslim 2202 text reads "aʿūdhu billāhi" (not "bi-ʿizzatillāhi"), used as on the page; no healing promise stated.
+- Production: 10 rendered (9 S4 + 1 Trial Reel), fast TNTF template (payoff 4.6 s, share line, next-part card), no music (render.js no-music rule), SFX only. Contact sheets reviewed, fixes before render (stairs overlap, smile emojis, pain pose = hand on head, entry framing, brackets in italic captions).
+- QC 10/10 pass: 1080x1920 h264 30 fps + aac, 31.1 s, no black frames, −14.2 to −15.8 LUFS, peak −1.1 to −1.5 dBFS. Frames 0 and 20 s inspected.
+- Upload: commit 2945501 (10 mp4 + tnt4_gen.py, tnt4_kits.txt, s4_posts.py); raw URLs return 200.
+- Scheduling: 10/10 created for 20 Nov (IDs in posted.md), all Pending, autoPublish; TRIAL_REEL accepted. Times 08:30–20:15, gaps ≥ 45 min, trial 3h15 after S4-08.
+- Costs: no paid services used; confirmed costs: none known.
+- Trial results: compare S4-08 vs S4-T after 22 Nov (views, shares/reach, avg watch).
