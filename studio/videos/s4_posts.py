@@ -1,0 +1,36 @@
+# Season 4 posts for 2026-11-20 (Africa/Casablanca). Used to build Metricool requests.
+FOLLOW = "👉 Follow @deepframemotion"
+TAGS_DUA = "#dua #sunnah #IslamicReminder #MuslimReminder #Deen"
+POSTS = [
+ # (dir, file, time, type, caption, first comment)
+ ("tnt40_stairs", "DFM_20261120_stairs_01.mp4", "08:30", "REEL",
+  "This, Not That S4 · 01/09 🪜\n\nTaking the stairs? There is a sunnah for that.\n\n❌ Up and down in silence, phone in hand\n✅ Going up: \"Allāhu akbar\" · Going down: \"Subḥān Allāh\"\n\nJābir ibn ʿAbdillāh said: \"Whenever we went up a place we would say Allāhu akbar, and whenever we went down a place we would say Subḥān Allāh.\" (Bukhārī 2993)\n\n★ Stairs at home, at work, a hill on your walk: turn every climb into dhikr.\n\nSend this to the one who lives on the top floor 👇\n" + FOLLOW + " for part 2\n\n#dhikr #sunnah #IslamicReels #MuslimReminder #Deen",
+  "Source: Ṣaḥīḥ al-Bukhārī 2993 🤍 Part 2 is up next"),
+ ("tnt41_smile", "DFM_20261120_smile_02.mp4", "09:30", "REEL",
+  "This, Not That S4 · 02/09 🙂\n\nCharity that costs nothing and takes one second.\n\n❌ Walking past your brother, cold and closed\n✅ Smile, say salām first, make him feel welcome\n\nThe Prophet ﷺ said: \"Your smiling in the face of your brother is charity.\" (Tirmidhī 1956, ḥasan)\n\n★ Start at home: parents, siblings, kids.\n\nSend this to the person whose smile makes your day 🤍\n" + FOLLOW + " for part 3\n\n#sadaqah #akhlaq #IslamicReels #MuslimReminder #Deen",
+  "Source: Jāmiʿ at-Tirmidhī 1956 🤍 Part 3 is up next"),
+ ("tnt42_pain", "DFM_20261120_pain_03.mp4", "10:30", "REEL",
+  "This, Not That S4 · 03/09 🤲\n\nIn pain? Put your hand on it and say this.\n\n❌ Only groaning and scrolling for a fix\n✅ Put your hand where it hurts, say \"Bismillāh\" 3×, then 7×:\n\"Aʿūdhu billāhi wa qudratihī min sharri mā ajidu wa uḥādhir\" – I seek refuge with Allah and His power from the evil of what I find and fear.\n\nThe Prophet ﷺ taught this to ʿUthmān ibn Abī al-ʿĀṣ when he complained of pain. (Muslim 2202)\n\n★ Duʿāʾ and treatment go together: take your medicine and say the duʿāʾ.\n\nSend this to someone who is unwell 🤍\n" + FOLLOW + " for part 4\n\n" + TAGS_DUA,
+  "Source: Ṣaḥīḥ Muslim 2202 🤍 Save it for when you need it"),
+ ("tnt43_toilet", "DFM_20261120_toilet_04.mp4", "11:30", "REEL",
+  "This, Not That S4 · 04/09 🚪\n\nBefore you enter the bathroom, say this one line.\n\n❌ Walking in on your phone, no duʿāʾ\n✅ Say before you go in:\n\"Allāhumma innī aʿūdhu bika minal-khubuthi wal-khabāʾith\" – O Allah, I seek refuge with You from all offensive and wicked things.\n\nAnas said the Prophet ﷺ used to say this whenever he went to answer the call of nature. (Bukhārī 142)\n\n★ Say it outside the door, and leave the phone outside too.\n\nTeach this to your kids 👇\n" + FOLLOW + " for part 5\n\n" + TAGS_DUA,
+  "Source: Ṣaḥīḥ al-Bukhārī 142 🤍 Part 5 is up next"),
+ ("tnt44_aftermeal", "DFM_20261120_aftermeal_05.mp4", "12:30", "REEL",
+  "This, Not That S4 · 05/09 🍽️\n\nOne sentence after eating, with a promise of forgiveness.\n\n❌ Plate empty, phone out, and you just get up\n✅ Say: \"Al-ḥamdu lillāhil-ladhī aṭʿamanī hādhā wa razaqanīhi min ghayri ḥawlin minnī wa lā quwwah\" – All praise is for Allah who fed me this and provided it for me, without any power or strength from me.\n\nThe Prophet ﷺ said that whoever eats and then says this, his past sins will be forgiven. (Tirmidhī 3458, ḥasan) Scholars explain this as the minor sins.\n\n★ Stick it on the fridge and say it after every meal.\n\nSave this for your next meal 🔖\n" + FOLLOW + " for part 6\n\n" + TAGS_DUA,
+  "Source: Jāmiʿ at-Tirmidhī 3458 (ḥasan) 🤍 Part 6 is up next"),
+ ("tnt45_host", "DFM_20261120_host_06.mp4", "14:00", "REEL",
+  "This, Not That S4 · 06/09 🏡\n\nLeaving a dinner? Don't just say \"thanks.\"\n\n❌ \"Thanks, it was nice\" and out the door\n✅ Make duʿāʾ for your host:\n\"Allāhumma bārik lahum fīmā razaqtahum, waghfir lahum warḥamhum\" – O Allah, bless them in what You have provided them, and forgive them and have mercy on them.\n\nThe Prophet ﷺ made this duʿāʾ for the family of ʿAbdullāh ibn Busr when he was their guest. (Muslim 2042)\n\n★ Say it out loud as you leave.\n\nSend this to the one who always hosts 🤍\n" + FOLLOW + " for part 7\n\n" + TAGS_DUA,
+  "Source: Ṣaḥīḥ Muslim 2042 🤍 Part 7 is up next"),
+ ("tnt46_loss", "DFM_20261120_loss_07.mp4", "15:30", "REEL",
+  "This, Not That S4 · 07/09 🤍\n\nLost something you loved? Say these words first.\n\n❌ Panic, anger, \"Why me?!\"\n✅ \"Innā lillāhi wa innā ilayhi rājiʿūn, Allāhumma-ʾjurnī fī muṣībatī wa akhlif lī khayran minhā\" – We belong to Allah and to Him we return. O Allah, reward me in my affliction and give me something better in its place.\n\nThe Prophet ﷺ said that whoever says this, Allah will reward him for his affliction and give him something better than it in exchange. (Muslim 918)\n\n★ Teach it to your kids before they need it.\n\nSend this to someone going through a loss 🤍\n" + FOLLOW + " for part 8\n\n#sabr " + TAGS_DUA,
+  "Source: Ṣaḥīḥ Muslim 918 🤍 Part 8 is up next"),
+ ("tnt47_tasbih", "DFM_20261120_tasbih_08.mp4", "17:00", "REEL",
+  "This, Not That S4 · 08/09 🌙\n\nExhausted? This is better than having a servant.\n\n❌ Falling into bed scrolling, waking up still tired\n✅ Before you sleep: SubḥānAllāh 33× · Alḥamdulillāh 33× · Allāhu akbar 34×\n\nWhen Fāṭimah asked for a servant, the Prophet ﷺ taught her and ʿAlī this and said it is better for them both than a servant. (Bukhārī 3705)\n\n★ Do it lying in bed, phone already away.\n\nSave this for tonight 🔖\n" + FOLLOW + " for part 9\n\n#dhikr #tasbih #IslamicReminder #MuslimReminder #Deen",
+  "Source: Ṣaḥīḥ al-Bukhārī 3705 🤍 Part 9 is up next"),
+ ("tnt48_yunus", "DFM_20261120_yunus_09.mp4", "18:15", "REEL",
+  "This, Not That S4 · 09/09 🌊\n\nFeeling trapped? Yūnus (ʿalayhis-salām) called out with this.\n\n❌ Telling everyone, except Allah\n✅ \"Lā ilāha illā anta, subḥānaka, innī kuntu minaẓ-ẓālimīn\" – There is none worthy of worship except You. Glory be to You. Indeed, I have been of the wrongdoers.\n\nThe Prophet ﷺ said: \"…no Muslim man supplicates with it for anything, ever, except Allah responds to him.\" (Tirmidhī 3505, ṣaḥīḥ)\n\n★ Say it with your heart, then ask for exactly what you need.\n\nSend this to someone who needs it tonight 🤍\n" + FOLLOW + "\n\n" + TAGS_DUA,
+  "Source: Jāmiʿ at-Tirmidhī 3505 🤍 Which of the 9 will you start today?"),
+ ("tnt49_tasbihT", "DFM_20261120_tasbih_T.mp4", "20:15", "TRIAL_REEL",
+  "Everyone wants help. Almost no one knows this gift 🌙\n\nBefore you sleep: SubḥānAllāh 33× · Alḥamdulillāh 33× · Allāhu akbar 34×\n\nWhen Fāṭimah asked for a servant, the Prophet ﷺ taught her and ʿAlī this and said it is better for them both than a servant. (Bukhārī 3705)\n\n★ Do it lying in bed, phone already away.\n\nSend this to someone who is always tired 🤍\n" + FOLLOW + "\n\n#dhikr #tasbih #IslamicReels #MuslimReminder #Deen",
+  "Source: Ṣaḥīḥ al-Bukhārī 3705 🤍"),
+]
