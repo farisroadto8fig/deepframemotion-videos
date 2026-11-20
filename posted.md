@@ -39,7 +39,8 @@ sleep (wuḍūʾ, right side, bismika) · waking dua · leaving home dua · ente
 | S3-09 | lowering the gaze (feed) | An-Nūr 24:30 | DFM_20261109_gaze_09.mp4 | 18:15 | 420198172 |
 | S3-10 | last 2 āyāt of al-Baqarah at night | Bukhārī 5009 (2:285–286) | DFM_20261109_baqarah_10.mp4 | 19:30 | 420198183 |
 
-## THIS, NOT THAT · Season 4 — scheduled for 2026-11-20 (Metricool, status: Pending, autoPublish)
+## THIS, NOT THAT · Season 4 — scheduled for 2026-11-20 (Metricool, autoPublish)
+> Status check 2026-11-20 19:40: S4-01…06 PUBLISHED on Instagram. S4-07, S4-08, S4-09 status ERROR "You have reached your Metricool account limit." (Free plan: 20 published posts per calendar month). S4-T still Pending at 20:15 but will hit the same limit. S4-07/08/09 topics are NOT published and may be reused after the limit resets (1 Dec) or the plan changes.
 | ID | Topic | Source (verified 19 Nov) | File | Time | Metricool ID |
 |---|---|---|---|---|---|
 | S4-01 | takbīr up / tasbīḥ down the stairs | Bukhārī 2993 (sunnah.com) | DFM_20261120_stairs_01.mp4 | 08:30 | 434635817 |

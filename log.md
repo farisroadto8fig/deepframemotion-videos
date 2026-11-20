@@ -129,3 +129,13 @@
 - Scheduling: 10/10 created for 20 Nov (IDs in posted.md), all Pending, autoPublish; TRIAL_REEL accepted. Times 08:30–20:15, gaps ≥ 45 min, trial 3h15 after S4-08.
 - Costs: no paid services used; confirmed costs: none known.
 - Trial results: compare S4-08 vs S4-T after 22 Nov (views, shares/reach, avg watch).
+
+## Run 2026-11-20 (scheduled autopilot, unattended) — target day 2026-11-21 — NO PRODUCTION (Metricool publish limit)
+- Start 18:40 UTC (18:40 Casablanca), finish ~19:45 UTC. No existing lock; lock acquired (b77319f) and released in this commit.
+- Schedule (Metricool getScheduledPosts, brand 7926528, 20–27 Nov): only the 10 S4 posts of 20 Nov. 21 Nov 0/10, 22 Nov 0/10.
+- BLOCKER: S4-01…06 published (08:30–14:00). S4-07 (15:30), S4-08 (17:00), S4-09 (18:15) returned ERROR "You have reached your Metricool account limit." Metricool help (help.metricool.com, main differences free vs paid): Free plan = up to 20 published posts per calendar month, resets on the 1st. November count: 20 reached. S4-T (20:15) will hit the same limit. This also explains the gap after 8 Nov 11:31: S2-05…10 and all of S3 were scheduled but never published (no reels in analytics between 8 Nov 11:31 and 20 Nov 08:31).
+- Decision: upgrading is not allowed without the owner (V2 Phase 15). Anything scheduled for 21/22 Nov would fail, so 0 videos produced, 0 uploaded, 0 scheduled (no extra videos just for quota). Best-time lookup skipped.
+- Analytics (6–20 Nov, IG reels; views/reach/shares/saves/avg watch s/skip %): 15 reels. Most views TNT10 "bad dream" 4553/3920/40/56/8.3/51.3. Best shares+saves per view: TNT11 gossip 1879/41/19 (3.2 %), TNT14 rain 1679/6/23, S2-02 adhān 1626/0/28 (1.7 %). Today (a few hours old, after 12 days of no posts): S4-01 stairs 381/314/0/1/5.6/49.7, S4-02 smile 236/204/0/2/4.4/61.3, S4-03 pain 155/94/2/4/4.4/41.4. Retention %, follower conversion per reel: unavailable.
+- Source verification: not needed this run (no production). Carry-over verified topics for the next production day: S4-07 loss (Muslim 918), S4-08 tasbīḥ (Bukhārī 3705), S4-09 Yūnus (Tirmidhī 3505) — already rendered, never published.
+- Costs: no paid services used; confirmed costs: none known.
+- Needed from owner: choose (a) upgrade Metricool to a paid plan (no monthly cap), or (b) stay on Free: max 20 posts/month (≈ 5 per week) from 1 Dec, then AUTOPILOT target must drop from 10/day.
