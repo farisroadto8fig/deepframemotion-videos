@@ -139,3 +139,14 @@
 - Source verification: not needed this run (no production). Carry-over verified topics for the next production day: S4-07 loss (Muslim 918), S4-08 tasbīḥ (Bukhārī 3705), S4-09 Yūnus (Tirmidhī 3505) — already rendered, never published.
 - Costs: no paid services used; confirmed costs: none known.
 - Needed from owner: choose (a) upgrade Metricool to a paid plan (no monthly cap), or (b) stay on Free: max 20 posts/month (≈ 5 per week) from 1 Dec, then AUTOPILOT target must drop from 10/day.
+
+## Run 2026-11-21 (scheduled autopilot, unattended) — target day 2026-11-22 — NO PRODUCTION (Metricool publish limit, 2nd day)
+- Start 18:40 UTC (18:40 Casablanca), finish ~18:55 UTC. No existing lock; lock acquired (56625ba) and released in this commit.
+- Schedule (Metricool getScheduledPosts, brand 7926528, 20–28 Nov): only the 10 S4 posts of 20 Nov. 21 Nov 0/10, 22 Nov 0/10, nothing else booked.
+- BLOCKER unchanged: S4-07, S4-08, S4-09 and S4-T (TRIAL_REEL, 20:15) all status ERROR "You have reached your Metricool account limit." No sign of a plan change (getBrandSettings shows no plan info; no owner commit or note in the repo). Free plan cap (20 published posts/month) stays in force until 1 Dec. Anything scheduled for 22 Nov would fail → 0 produced, 0 uploaded, 0 scheduled (V2 Phase 15: no upgrade without owner). Best-time lookup skipped.
+- Trial result S4-08 vs S4-T: not possible, neither was published.
+- Analytics (7–21 Nov, IG reels; views/reach/shares/saves/likes/avg watch s/skip %): 17 reels. Most views overall TNT10 "bad dream" 4553/3920/40/56/103/8.3/51.3. S4 after ~1.5 days: S4-04 toilet duʿāʾ 1803/1602/5/23/34/6.1/56.1, S4-03 pain duʿāʾ 1747/1544/12/52/64/5.7/48.3 (best shares+saves per view in window: 3.7 %), S4-01 stairs 837/743/1/10/27/6.3/48.7, S4-05 after-meal 425/363/1/12/16/5.5/57.4, S4-06 host 315/272/0/1/3/4.5/54.9, S4-02 smile 298/270/0/2/5/4.4/64.1 (highest S4 skip). Weakest: S2-04 tahiyyah 96/2/0/0. Retention % (IGRE27): null; follower conversion per reel: unavailable.
+- Pattern: practical "say this duʿāʾ when X happens" (pain, toilet) beat abstract akhlāq (smile, host) on views and saves; avg watch time of S4 (4.4–6.3 s) is lower than S1 (6.6–8.7 s) → hooks/first seconds of the fast TNTF template need work.
+- Source verification: not needed (no production). Carry-over verified, already rendered, never published: S4-07 loss (Muslim 918), S4-08 tasbīḥ (Bukhārī 3705), S4-09 Yūnus (Tirmidhī 3505), S4-T.
+- Costs: no paid services used; confirmed costs: none known.
+- Needed from owner (still open): (a) upgrade Metricool to a paid plan, or (b) stay on Free → from 1 Dec max 20 posts/month, AUTOPILOT target must drop from 10/day.
