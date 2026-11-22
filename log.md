@@ -150,3 +150,12 @@
 - Source verification: not needed (no production). Carry-over verified, already rendered, never published: S4-07 loss (Muslim 918), S4-08 tasbīḥ (Bukhārī 3705), S4-09 Yūnus (Tirmidhī 3505), S4-T.
 - Costs: no paid services used; confirmed costs: none known.
 - Needed from owner (still open): (a) upgrade Metricool to a paid plan, or (b) stay on Free → from 1 Dec max 20 posts/month, AUTOPILOT target must drop from 10/day.
+
+## Run 2026-11-22 (scheduled autopilot, unattended) — target day 2026-11-23 — NO PRODUCTION (Metricool publish limit, 3rd day)
+- Start 18:40 UTC (18:40 Casablanca), finish ~18:50 UTC. No existing lock; lock acquired (10bdf1a) and released in this commit.
+- Schedule (Metricool getScheduledPosts, brand 7926528, 20–30 Nov): only the 10 S4 posts of 20 Nov. 23 Nov 0/10, 24 Nov 0/10, nothing else booked.
+- BLOCKER unchanged: S4-07, S4-08, S4-09 and S4-T still status ERROR "You have reached your Metricool account limit." No sign of a plan change or owner note in the repo. Free cap (20 published posts/month) holds until 1 Dec → anything scheduled for 23 Nov would fail → 0 produced, 0 uploaded, 0 scheduled (V2 Phase 15: no upgrade without owner). Best-time lookup skipped.
+- Analytics (8–22 Nov, IG reels; views/reach/shares/saves/likes/avg watch s/skip %): 10 reels in window. Most views S4-04 toilet duʿāʾ 1808/1606/5/23/34/6.1/56.1. Best shares+saves per view: S4-03 pain duʿāʾ 1755/1548/12/52/64/5.7/48.4 (3.6 %). Longest avg watch: S2-02 adhān 8.7 s (1626 views, 28 saves). S4-01 stairs 838/743/1/10/27/6.3/48.7, S4-05 after-meal 425/363/1/12/16/5.5/57.4, S4-06 host 316/272/0/1/3/4.5/54.7, S4-02 smile 298/270/0/2/5/4.4/64.1. Weakest: S2-04 tahiyyah 96/2/0/0/1.1 s. S4 numbers barely moved since yesterday (growth has stalled with no new posts). Retention % (IGRE27): null; follower conversion per reel: unavailable.
+- Source verification: not needed (no production). Carry-over verified, rendered, never published: S4-07 (Muslim 918), S4-08 (Bukhārī 3705), S4-09 (Tirmidhī 3505), S4-T.
+- Costs: no paid services used; confirmed costs: none known.
+- Needed from owner (still open, 3rd day): (a) upgrade Metricool to a paid plan, or (b) stay on Free → from 1 Dec max 20 posts/month, AUTOPILOT target must drop from 10/day.
