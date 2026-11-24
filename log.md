@@ -177,3 +177,6 @@
 - Source verification: not needed (no production). Carry-over verified, rendered, never published: S4-07 (Muslim 918), S4-08 (Bukhārī 3705), S4-09 (Tirmidhī 3505), S4-T.
 - Costs: no paid services used; confirmed costs: none known.
 - Needed from owner (still open, 5th day): (a) upgrade Metricool to a paid plan, or (b) stay on Free → from 1 Dec max 20 posts/month, AUTOPILOT target must drop from 10/day.
+
+## 2026-11-24 — AUTOPILOT PAUSED by owner
+- Owner: temporarily stopped, no more uploads. Scheduled task "Deep Frame Motion Autopilot V2" disabled. Do not produce, upload or schedule until the owner restarts it.
